@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu các linh kiện máy tính</title>
+    <link rel="stylesheet" href="style_trangphu.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.5.2/css/all.min.css">
+    <script src="sosanh_thongso.js" defer></script>
+</head>
+
+<body>
+    <div id="banner">
+        <a name="dautrang"></a>
+    </div>
+
+    <div id="container-top">
+        <div id="danhmuc">
+            <div class="block" id="link_trangchu">
+                <a href="index_trangchu.html"><i class="fa-solid fa-house"></i> Trang chủ</a>
+            </div>
+
+            <div class="block" id="danhmuc_dropDown">
+                <ul>
+                    <li><a href="#"><i class="fa-solid fa-bars"></i> Danh mục các linh kiện</a>
+                        <ul>
+                            <li><a href="index_CPU.html" class="menu-item">CPU</a></li>
+                            <li><a href="index_RAM.html" class="menu-item">RAM</a></li>
+                            <li><a href="index_oCung.html" class="menu-item">Ổ cứng</a></li>
+                            <li><a href="index_boNguon.html" class="menu-item">Bộ nguồn</a></li>
+                            <li><a href="index_cardDoHoa.html" class="menu-item">Card đồ họa</a></li>
+                            <li><a href="index_mainboard.html" class="menu-item">Mainboard</a></li>
+                            <li><a href="index_cardMang.html" class="menu-item">Card mạng</a></li>
+                            <li><a href="index_tanNhiet.html" class="menu-item">Thiết bị tản nhiệt</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="block" id="link_trangchu">
+                <a href="index_soSanhThongSo.html">So sánh thông số</a>
+            </div>
+        </div>
+
+        <div id="duongdan"><a href="index_trangchu.html">Trang chủ</a> / <a href="#dautrang">Danh mục các linh kiện</a>
+            / <a href="#dautrang">So sánh thông số</a> </div>
+    </div>
+
+    <div id="container-content">
+        <div class="block" id="noidung">
+            <h1 class="ten_linhkien">Bảng tóm tắt so sánh các thông số</h1>
+            <select name="menu_linhkien" id="menu_linhkien" onchange="handleComponentSelection()">
+                <option value="" selected="selected">Chọn linh kiện</option>
+                <option value="RAM">RAM</option>
+                <option value="CPU">CPU</option>
+                <option value="oCung">Ổ cứng</option>
+                <option value="boNguon">Bộ nguồn</option>
+                <option value="card_dh">Card đồ họa</option>
+                <option value="main">Mainboard</option>
+                <option value="card_mang">Card mạng</option>
+                <!-- <option value=""></option> -->
+            </select>
+
+            <div id="comparison"></div>
+        </div>
+
+        <div class="block" id="quangcao">
+            <a href="https://gearvn.com/pages/pc-gvn" target="_blank"><img class="hinhQC" id="hinhQuangCao"
+                    src="image/hinhQuangCao.webp" alt="quangcao" title="Build PC tại GEARVN"></a>
+            <a href="https://gearvn.com/pages/pc-gvn" target="_blank"><img class="hinhQC" id="hinhQuangCao2"
+                    src="image/hinhQuangCao2.webp" alt="quangcao" title="Build PC tại GEARVN"><a>
+        </div>
+    </div>
+
+    <footer>
+        <p>Copyright&copy; 2024 My Website.</p>
+        <p>Thiết kế bởi: Nguyễn Huỳnh Chí, Lê Khánh Duy, Nguyễn Trọng Đạt</p>
+        <p>Liên hệ: <br>
+            <i class="fa-solid fa-envelope"></i> Nguyễn Huỳnh Chí: 110122001@st.tvu.edu.vn <br>
+            <i class="fa-solid fa-envelope"></i> Lê Khánh Duy: 110122002@st.tvu.edu.vn <br>
+            <i class="fa-solid fa-envelope"></i> Nguyễn Trọng Đạt: 110122217@st.tvu.edu.vn
+        </p>
+    </footer>
+</body>
+
+</html>

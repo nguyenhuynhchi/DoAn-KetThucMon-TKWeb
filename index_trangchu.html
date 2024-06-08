@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu các linh kiện máy tính</title>
+    <link rel="stylesheet" href="style_trangchu.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <div id="banner">
+        <a name="dautrang"></a>
+    </div>
+
+    <div id="container">
+        <div class="block" id="danhmuc">
+            <h3 class="tieude_danhmuc">
+                <a href="#dautrang" title="Lên đầu trang"><i style="margin: 5px;" class="fa-solid fa-newspaper"></i>Các
+                    linh kiện máy tính</a>
+            </h3>
+
+            <ul class="menu">
+                <li><a href="#CPU" class="menu-item">CPU (Central Processing Unit)</a></li>
+                <li><a href="#RAM" class="menu-item">RAM (Random Access Memory)</a></li>
+                <li><a href="#o_cung" class="menu-item">Ổ cứng (HDD hoặc SSD)</a></li>
+                <li><a href="#nguon" class="menu-item">Bộ nguồn (Power Supply)</a></li>
+                <li><a href="#card_dh" class="menu-item">Card đồ họa (Graphics Card)</a></li>
+                <li><a href="#main" class="menu-item">Mainboard (Bo mạch chủ)</a></li>
+                <li><a href="#card_mang" class="menu-item">Card mạng</a></li>
+                <li><a href="#case" class="menu-item">Case máy tính (vỏ máy tính)</a></li>
+                <li><a href="#tan_nhiet" class="menu-item">Thiết bị tản nhiệt </a></li>
+                <li><a href="#ngoai_vi" class="menu-item">Thiết bị ngoại vi </a></li>
+            </ul>
+
+            <!-- đánh dấu đang ở vị trí đó -->
+            <script>
+                document.querySelectorAll('.menu-item').forEach(item => {
+                    item.addEventListener('click', function () {
+                        document.querySelectorAll('.menu-item').forEach(el => el.classList.remove('active'));
+                        this.classList.add('active');
+                    });
+                });
+            </script>
+
+            <div class="link_linhKien_phoBien">
+                <h3 class="tieude_danhmuc">
+                    <a href="#list_thongtin">Thông tin đáng chú ý</a>
+                </h3>
+            </div>
+
+            <div class="link_linhKien_phoBien">
+                <h3 class="tieude_danhmuc">
+                    <a href="index_CPU.html"><i class="fa-regular fa-hand-point-right"></i> Các linh kiện tham khảo</a>
+                </h3>
+            </div>
+
+        </div>
+
+        <div class="block" id="noidung">
+
+            <!-- tiêu đề chính trang (lời dẫn) -->
+            <h1 class="tieude" id="tieude-chinh">Linh kiện máy tính là gì? Máy tính bao gồm những linh kiện nào?</h1>
+
+            <p class="text" id="text1">Máy tính có thể là thứ chúng ta dùng hàng ngày hoặc thấy thường xuyên nhưng mỗi
+                khi nói đến các thành phần phần cứng bên trong thì không phải ai cũng nắm rõ. Vậy linh kiện máy tính là
+                gì? Máy tính bao gồm những linh kiện nào? Trong bài viết này sẽ tóm tắt chức năng của một số bộ phận
+                chính để cấu tạo nên một chiếc máy tính hoàn chỉnh.</p>
+
+            <!-- Nêu ra các linh kiện (hình minh họa) -->
+            <h2 class="tieude" id="tieude_cacLinhKien">Các bộ phận linh kiện cấu tạo lên máy tính</h2>
+
+            <p class="text" id="text2">Linh kiện máy tính là các thành phần được lắp ghép để tạo thành một bộ máy hoàn
+                chỉnh. Như bạn biết, máy tính là sản phẩm điện tử được tạo nên từ hành trăm các linh kiện lớn, nhỏ khác
+                nhau. Chúng ta cần biết cơ bản các bộ phận quan trọng có trong máy tính như: CPU, RAM, ổ cứng,
+                Mainboard, bộ Nguồn, Card đồ họa, card mạng,...</p>
+
+            <div class="hinhMinhHoa">
+                <img class="hinh" id="hinhMinhHoa1" src="image/hinhMinhHoa(LinhKien).png"
+                    alt="Các bộ phận linh kiện cấu tạo lên máy tính">
+            </div>
+
+            <!-- CPU -->
+            <h2 class="tieude" id="tieude_CPU"><a name="CPU">CPU (Central Processing Unit)</a></h2>
+
+            <p class="text" id="text2">CPU hay còn được gọi là chip, là bộ xử lý trung tâm và được ví như “bộ não” của
+                máy tính. Bởi nó có chức năng tương tự bộ não của con người, nó sẽ giúp máy tính xử lý tất cả các thông
+                tin từ trong ra ngoài, từ ngoài vào trong, nói chung là mọi hành động đều phải thông qua CPU rồi mới
+                hiển thị ra màn hình Desktop. Đây là bộ phận cực kỳ quan trọng trong máy tính, nó sẽ quyết định hiệu
+                năng hoạt động có mạnh không. Vì vậy mà nó cũng là linh kiện đắt đỏ nhất trong máy tính, được nghiên cứu
+                kỹ càng nhất trong quyết định của người mua.</p>
+
+            <div class="hinhMinhHoa">
+                <img class="hinh" id="hinhMinhHoa_CPU" src="image/hinhMinhHoa(CPU).jpg" alt="Hình minh họa cho CPU">
+                <p>CPU là linh kiện quan trọng nhất trong máy tính</p>
+            </div>
+
+            <p class="text" id="text3">Và chúng ta sẽ có 2 thương hiệu sản xuất CPU lớn nhất hiện nay, đó là Intel và
+                AMD. Mỗi thương hiệu sẽ sở hữu khả năng tương thích và công nghệ riêng biệt cho một linh kiện cực kì
+                quan trọng, đó là mainboard.</p>
+
+            <div class="hinhMinhHoa">
+                <img class="hinh" id="hinhMinhHoa2_CPU" src="image/hinhMinhHoa2(CPU).jpg" alt="Hình minh họa cho CPU">
+            </div>
+
+            <p class="text" id="text4"> Với intel sử dụng socket dạng LGA và đối với AMD sẽ là PGA đối với CPU Ryzen và
+                LGA dành cho dòng CPU cao cấp, AMD Threadripper. Tuy nhiên, thế hệ Ryzen 7000 Series sẽ đã sở hữu cho
+                mình socket LGA tương tự. Tiếp theo, chúng ta sẽ cần chú ý đến những thông số của CPU như xung nhịp, số
+                nhân và luồng. Hãy cân nhắc và lựa chọn giữa CPU với nhau, điều này còn căn cứ vào nhu cầu sử dụng của
+                bạn.<br>
+                <a href="index_CPU.html"><i class="fa-regular fa-hand-point-right"></i>1 số loại CPU phổ biến hiện
+                    nay.</a>
+            </p>
+
+            <!-- RAM -->
+            <h2 class="tieude" id="tieude_RAM"><a name="RAM">RAM (Random Access Memory)</a></h2>
+
+            <p class="text" id="text5">RAM vốn là linh kiện có mặt trên mọi thiết bị từ máy tính bàn đến laptop và điện
+                thoại thông minh. Được gọi là bộ nhớ nhưng RAM đóng vai trò lưu trữ một cách tạm thời, chính xác thì RAM
+                sẽ lưu trữ những dữ liệu ở khu vực truy cập nhanh trên máy tính rồi cung cấp đến người dùng khi được yêu
+                cầu. RAM chia sẻ gánh nặng cho CPU, có nghĩa là RAM sẽ lưu lại tạm thời những thông tin mà bạn vừa thao
+                tác trên máy tính và nó sẽ lưu lại và đẩy từ từ các thông tin vào cho CPU xử lý, để cho CPU có thời gian
+                nghỉ trước khi xử lý mà không bị quá tải. Dung lượng của RAM càng lớn thì lưu trữ được càng nhiều thông
+                tin và đồng nghĩa với việc bạn sẽ xử lý và làm nhiều việc cùng một lúc hơn. Đây là linh kiện máy tính
+                quan trọng thứ hai sau CPU vì dung lượng của nó ảnh hưởng rất nhiều đến tốc độ và hiệu suất làm việc của
+                máy tính.</p>
+
+            <div class="hinhMinhHoa">
+                <img class="hinh" id="hinhMinhHoa_RAM" src="image/hinhMinhHoa(RAM).jpg" alt="Hình minh họa cho RAM">
+                <p>RAM ảnh hướng đến tốc độ và hiệu suất làm việc của máy tính</p>
+            </div>
+
+            <p class="text" id="text6">Dung lượng RAM cũng là điều khiến mọi người dùng khi build PC đều băn khoăn. Với
+                những nhu cầu sử dụng như hiện nay thì mức RAM 8GB trở lên chính là con số tuyệt vời cho mọi cấu hình PC
+                hiện nay. Nếu có thể cung cấp nguồn kinh phí cao hơn thì bạn có thể nghĩ tới những mức dung lượng cao
+                như 16GB, 32GB dành cho bộ PC của mình. Cùng với đó là phần tốc độ (MHz) ở mỗi kit RAM ở từng model sản
+                phẩm.</p>
+
+            <p class="text" id="text7">Một điều không kém phần quan trọng đó là cách lắp RAM, hãy luôn trang bị RAM theo
+                cách Dual-RAM. Tức là lắp từ 2 thanh RAM trở lên với mọi dung lượng, ví dụ như với dung lượng 8GB hãy sử
+                dụng 2 thanh RAM 4GB, 16GB là 2 thanh 8GB. Điều này sẽ giúp đẩy hiệu năng lên mức tối đa giúp bạn có thể
+                tận dụng được sức mạnh từ những kit RAM.</p>
+
+            <div class="hinhMinhHoa">
+                <img class="hinh" id="hinhMinhHoa2_RAM" src="image/hinhMinhHoa2(RAM).webp"
+                    alt="Hình minh họa cho RAM"><br>
+                <p style="opacity: 1; font: size 17px;"><a href="index_RAM.html"><i
+                            class="fa-regular fa-hand-point-right"></i>1 số loại RAM phổ biến hiện nay.</a></p>
+            </div>
+
+            <!-- Ổ cứng -->
+            <h2 class="tieude" id="tieude_oCung"><a name="o_cung">Ổ cứng (HDD hoặc SSD)</a></h2>
+
+            <p class="text" id="text8">Đây là bộ nhớ của máy tính chứa toàn bộ dữ liệu của bạn. Có 2 loại ổ cứng thông
+                dụng đó là ổ HDD và ổ cứng SSD. Ổ HDD thì được sử dụng rộng rãi hơn bởi vì giá thành rẻ hơn rất nhiều so
+                với ổ SSD nhưng nhược điểm của nó là tốc độ đọc, ghi và xử lý thông tin chậm hơn nhiều so với ổ SSD.</p>
+            <div class="hinhMinhHoa">
+                <img class="hinh" id="hinhMinhHoa_Ocung" src="image/hinhMinhHoa(o_cung).webp"
+                    alt="Hình minh họa cho ổ cứng">
+            </div>
+
+            <p class="text" id="text9">Ở những chiếc ổ cứng SSD, chúng ta cũng có những loại SSD khác nhau với các kết
+                nối khác nhau như SATA và PCIe NVMe. Ở chuẩn SATA, chúng dễ dàng được tìm thấy trên phân khúc SSD giá rẻ
+                và phổ thông, phù hợp cho nhu cầu sử dụng đơn giản đến trung bình. Còn đối PCIe, đây là phương thức kết
+                nối tiêu chuẩn dành cho NVMe sở hữu công nghệ cùng khả năng truyền tải mạnh mẽ vượt trội so với chuẩn
+                SATA, vì vậy những chiếc SSD NVMe thường có mức giá khá cao và phục vụ cho những nhu cầu sử dụng cao và
+                nặng.</p>
+
+            <div class="hinhMinhHoa">
+                <img class="hinh" id="hinhMinhHoa2_Ocung" src="image/hinhMinhHoa2(o_cung).webp"
+                    alt="Hình minh họa cho ổ cứng">
+            </div>
+
+            <p class="text" id="text10">Tối ưu cho khả năng sử dụng cá nhân, bạn có thể thoải mái trang bị mức dung
+                lượng phù hợp với nhu cầu. Mức dung lượng cơ bản mà GEARVN khuyến nghị cho các bạn đó là từ 256GB SSD
+                trở lên, kèm với đó là một chiếc ổ cứng 1TB HDD để lưu những dữ liệu như game, file, phần mềm. Tùy vào
+                mức kinh phí sở hữu mà bạn có thể trang bị dung lượng SSD lớn hẳn cho bộ máy của mình.<br>
+                <a href="index_oCung.html"><i class="fa-regular fa-hand-point-right"></i>1 số loại SSD và HHD phổ biến
+                    hiện nay.</a>
+            </p>
+
+            <!-- Bộ nguồn -->
+            <h2 class="tieude" id="tieude_nguon"><a name="nguon">Bộ nguồn (Power Supply hay PSU)</a></h2>
+
+            <p class="text" id="text11">Bộ nguồn có nhiệm vụ chuyển hóa dòng điện xoay chiều (AC) thành dòng điện 1
+                chiều (máy tính sử dụng dòng điện 1 chiều (DC) để cung cấp điện năng cho các linh kiện máy tính), một
+                khi dòng điện quá mạnh thì sẽ gây hư hại cho máy tính hoặc nếu như dòng điện quá thấp thì cũng dẫn đến
+                hiện tượng thiếu hụt điện năng cho các linh kiện bên trong và cũng gây nên tình trạng chập chờn, máy
+                tính restart liên tục và có thể không thể hoạt động được
+            </p>
+
+            <div class="hinhMinhHoa">
+                <img class="hinh" id="hinhMinhHoa_nguon" src="image/hinhMinhHoa(nguon).webp"
+                    alt="Hình minh họa cho bộ nguồn">
+                <p>Bộ nguồn ảnh hưởng đến hiệu suất làm việc và tuổi thọ của máy tính</p>
+            </div>
+
+            <p class="text" id="text12">Cùng với đó là kiểu dây của những chiếc PSU, bao gồm 3 kiểu là Full Modular,
+                Semi Modular và Non Modular. Ở mỗi kiểu dây sẽ có những thế mạnh riêng phù hợp với cách lắp đặt và nhu
+                cầu sử dụng từ người dùng</p>
+
+            <p class="text" id="text13">Hiện nay có rất nhiều thương hiệu trên thị trường, vì thế sẽ gây hoang mang cho
+                người sử dụng. Công suất chính là yếu tố đầu tiên khi mua PSU bạn nên chú ý. Bởi nó thể hiện sức mạnh
+                của một chiếc máy tính để chọn cho mình một PSU tốt nhất và phù hợp nhu cầu.<br>
+                <a href="index_boNguon.html"><i class="fa-regular fa-hand-point-right"></i>1 số loại bộ nguồn phổ biến
+                    hiện nay.</a>
+            </p>
+
+            <!-- Card đò họa -->
+            <h2 class="tieude" id="card_dh"><a name="card_dh">Card đồ họa (Graphics Card)</a></h2>
+
+            <p class="text" id="text14"> Card màn hình hay VGA đóng vai trò xử lý đồ họa cho những tác vụ liên quan đến
+                hình ảnh như photoshop, edit video, chơi game. Kết nối với mainboard thông qua khe PCIe ngay trên
+                mainboard và cổng VGA trên màn hình, card màn hình cần tận dụng mọi nguồn tài nguyên trên hỗ trợ cho khả
+                năng hoạt động của GPU trong sản phẩm. </p>
+
+            <div class="hinhMinhHoa">
+                <img class="hinh" id="hinhMinhHoa_card_dh)" src="image/hinhMinhHoa(card_dh).webp"
+                    alt="Hình minh họa cho Card đồ họa">
+                <p>Card đồ họa xử lý các tác vụ hình ảnh</p>
+            </div>
+
+            <p class="text" id="text15">Hiện nay trên thị trường có hai hãng sản xuất chính cho card đồ họa đó là Nvidia
+                và ADM. Cả 2 đều là hãng sản xuất có danh tiếng và các sản phẩm của họ cũng có ưu khuyết điểm khó có thể
+                so sánh ai hơn ai. Tuy nhiên tại thị trường Việt Nam thì số lượng card rời Nvidia được sử dụng trên máy
+                tính có phần vượt trội hơn so với AMD.<br>
+                <a href="index_cardDoHoa.html"><i class="fa-regular fa-hand-point-right"></i>1 số loại card đồ họa phổ
+                    biến hiện nay.</a>
+            </p>
+
+            <!-- Main Board -->
+            <h2 class="tieude" id="main"><a name="main">Mainboard (Bo mạch chủ)</a></h2>
+
+            <p class="text" id="text16">Mainboard được ví như bộ xương của con người, là nơi gắn kết tất cả các linh
+                kiện máy tính và các thiết bị ngoại vi lại với nhau thành một khối thống nhất để máy tính có thể hoạt
+                động được. Nó giúp máy tính điều khiển tốc độ và đường đi của luồng dữ liệu giữa các thiết bị trong máy
+                tính.</p>
+
+            <div class="hinhMinhHoa">
+                <img class="hinh" id="hinhMinhHoa_main" src="image/hinhMinhHoa(main).jpg"
+                    alt="Hình minh họa cho Main Board">
+                <p>Bo mạch chủ giúp gắn kết tất cả linh kiện điện tử thành một thể thống nhất</p>
+            </div>
+
+            <p class="text" id="text17">Mainboard cũng được chia theo từng kích thước từ nhỏ đến lớn với: mini-ITX
+                (17x17cm), micro-ATX (24.4x24.4cm) và ATX (30.5x24.4cm). Đó cũng chính là kích thước mainboard hỗ trợ mà
+                chúng ta có thể thấy trên những chiếc case máy tính ngày nay.</p>
+
+            <div class="hinhMinhHoa">
+                <img class="hinh" id="hinhMinhHoa2_main" src="image/hinhMinhHoa2(main).webp"
+                    alt="Hình minh họa cho Main Board">
+            </div>
+
+            <p class="text" id="text18">Chipset trên mainboard, mỗi chipset sẽ tương ứng với thương hiệu CPU như Intel
+                và AMD. Với Intel, hiện nay chúng ta sẽ cần có những mainboard sở hữu chipset H610, B660, B760, Z690 và
+                Z790. Còn đối với AMD, chúng ta sẽ có những chipset như A320, B550, B650, X570 và X670. Những chipset
+                riêng biệt sẽ tương thích với những thế hệ CPU riêng biệt, vì vậy hãy cân nhắc thật kỹ trước khi lựa
+                chọn mainboard dành cho CPU của mình.<br>
+                <a href="index_mainboard.html"><i class="fa-regular fa-hand-point-right"></i>1 số loại Mainboard phổ
+                    biến hiện nay.</a>
+            </p>
+
+            <!-- Card mạng -->
+            <h2 class="tieude" id="card_mang"><a name="card_mang">Card mạng</a></h2>
+
+            <p class="text" id="text19">Card mạng (network card), hay card giao tiếp mạng (Network Interface Card), là
+                một bản mạch cung cấp khả năng truyền thông mạng cho một máy tính. Nhờ vào các kết nối với khe cắm trong
+                bo mạch chính của máy tính để bàn nên các máy tính kết nối với nhau qua môi trường mạng. Việc kết nối
+                này còn được gọi là LAN adapter.</p>
+
+            <div class="hinhMinhHoa">
+                <img class="hinh" id="hinhMinhHoa_cardmang" src="image/hinhMinhHoa(card_mang).webp"
+                    alt="Hình minh họa cho card mạng">
+                <p>Card mạng cung cấp khả năng truyền mạng cho máy tính</p>
+            </div>
+
+            <p style="margin-left: 10px"><a href="index_cardMang.html"><i class="fa-regular fa-hand-point-right"></i>1
+                    số loại Card mạng phổ biến hiện nay.</a></p>
+
+            <!-- Case máy tính -->
+            <h2 class="tieude" id="case"><a name="case">Case máy tính (vỏ máy tính)</a></h2>
+            <p class="text" id="text20">Cuối cùng và cũng là bộ mặt của toàn bộ dàn máy tính là nơi chứa tất cả những
+                trang linh kiện máy tính ở trên và các cổng để kết nối các thiết bị ngoại vi. Không chỉ cần quan tâm về
+                phần ngoại hình, chúng ta cần lưu ý đến một số đặc điểm tối quan trọng khác của case như khả năng thoát
+                khí và kích thước của sản phẩm.</p>
+
+            <div class="hinhMinhHoa">
+                <img class="hinh" id="hinhMinhHoa_case" src="image/hinhMinhHoa(case).jpg"
+                    alt="Hình minh họa cho case máy tính">
+            </div>
+
+            <p class="text" id="text21">Kích thước được chia ra thành 4 form từ nhỏ đến lớn: small form factor, mini
+                tower, mid tower và full tower, mỗi form case máy tính sẽ có những linh kiện chủ yếu là mainboard cùng
+                kích thước tương thích.</p>
+
+            <div class="hinhMinhHoa">
+                <img class="hinh" id="hinhMinhHoa2_case" src="image/hinhMinhHoa2(case).jpg"
+                    alt="Hình minh họa cho case máy tính">
+            </div>
+
+            <p class="text" id="text22">Khả năng thoát khí hay tản nhiệt của case máy tính, cần đảm chiếc case sẽ có đầy
+                đủ không gian, khu vực để đáp ứng khả năng vào và ra của không khí. Điều này sẽ đặt cho bộ PC một nền
+                tảng với môi trường tự nhiên tốt. Và khi đó, chúng ta sẽ có thể cân nhắc đến việc trang bị thêm những
+                thiết bị tản nhiệt như fan tản nhiệt, tản nhiệt nước hoặc là hệ thống tản nhiệt nước custom.</p>
+
+            <!-- Thiết bị tản nhiệt -->
+            <h2 class="tieude" id="tan_nhiet"><a name="tan_nhiet">Thiết bị tản nhiệt </a></h2>
+            <p class="text" id="text23">Những thiết bị tản nhiệt ngày càng thể hiện và khẳng định chỗ đứng của mình
+                trong mọi yêu cầu build PC. Đây là sự cần thiết khi hiệu năng của những linh kiện ngày càng được gia
+                tăng nên trong quá trình hoạt động sẽ sản sinh rất nhiều nhiệt lượng gây ra tình trạng quá nhiệt
+                (overheat). Nếu kéo dài tình trạng ấy, có thể khiến cho các thiết bị tụt giảm về hiệu suất hoạt động và
+                gây hư hỏng.</p>
+
+            <div class="hinhMinhHoa">
+                <img class="hinh" id="hinhMinhHoa_tannhiet" src="image/hinhMinhHoa(tan_nhiet).jpg"
+                    alt="Hình minh họa cho thiết bị tản nhiệt">
+            </div>
+
+            <p class="text" id="24">Các thiết bị tản nhiệt được phân chia ra rất nhiều loại nhưng chúng ta có thể điểm
+                danh 3 kiểu thiết bị phổ nhất là tản nhiệt CPU, fan tản nhiệt và tản nhiệt AIO (tản nhiệt nước).</p>
+
+            <div id="hinhMoTa_tanNhiet">
+                <div class="hinhMoTa">
+                    <img class="hinhMinhHoa_3_tanNhiet" src="image/hinhMinhHoa(tan_nhiet_CPU).webp"
+                        alt="Hình minh họa cho thiết bị tản nhiệt CPU">
+                    <p>Tản nhiệt CPU, đúng như tên gọi thì đây là thiết bị tập trung khả năng tản nhiệt cho vi xử lý máy
+                        tính. Thiết bị phụ thuộc vào khả năng thoát nhiệt nhờ những chiếc fan trên thiết bị và tiếp xúc
+                        trực tiếp với CPU.</p>
+                </div>
+                <div class="hinhMoTa">
+                    <img class="hinhMinhHoa_3_tanNhiet" src="image/hinhMinhHoa(tan_nhiet_AIO)).webp"
+                        alt="Hình minh họa cho thiết bị tản nhiệt AIO">
+                    <p>Tản nhiệt AIO thường sở hữu thiết kế tuyệt vời cùng những công nghệ tản nhiệt tiên tiến nhất. Kết
+                        hợp hoàn hảo giữa khí và nước, tản nhiệt AIO mang lại khả năng tối ưu nhiệt độ nhanh chóng và
+                        tuyệt vời nhất cho người dùng.</p>
+                </div>
+                <div class="hinhMoTa">
+                    <img class="hinhMinhHoa_3_tanNhiet" src="image/hinhMinhHoa(quat_tan_nhiet).webp"
+                        alt="Hình minh họa cho thiết bị quạt tản nhiệt">
+                    <p>Quạt tản nhiệt đây là những chiếc quạt được lắp đặt xung quanh trong case, bạn có thể dễ dàng lựa
+                        chọn giữa những kích thước 120mm, 140mm. Không chỉ đáp ứng nhu cầu tản nhiệt, những thiết bị tản
+                        nhiệt còn giúp tô điểm cho dàn PC của chúng ta với rất nhiều thiết kế và hiệu ứng đa dạng.</p>
+                </div>
+            </div>
+
+            <p style="margin-left: 10px"><a href="index_tanNhiet.html"><i class="fa-regular fa-hand-point-right"></i>1
+                    số loại thiết bị tản nhiệt phổ biến hiện nay.</a></p>
+
+            <!-- Thiết bị ngoại vi -->
+            <h2 class="tieude" id="ngoai_vi">Thiết bị ngoại vi</h2>
+
+            <p class="text" id="text25">Thiết bị ngoại vi, còn được gọi là thiết bị phụ trợ, bao gồm các thiết bị đầu
+                vào hoặc đầu ra phần cứng được cung cấp để cung cấp chức năng bổ sung cho máy tính. Tuy nhiên, các thiết
+                bị ngoại vi không bắt buộc để thực hiện các tác vụ cơ bản của máy tính; chúng chỉ là một cải tiến để
+                tăng cường trải nghiệm của người dùng.</p>
+
+            <p class="text" style="font-size: 18px; font-weight: bold;">Danh sách các loại thiết bị ngoại vi chính:</p>
+
+            <ul id="list_ngoaiVi">
+                <li class="text">Bàn phím (Keyboard): thiết bị đầu vào cho phép người dùng nhập liệu văn bản, lệnh, các
+                    ký tự và số.</li>
+                <li class="text">Chuột (Mouse): thiết bị đầu vào cho phép người dùng di chuyển con trỏ trên màn hình và
+                    thực hiện các thao tác như chọn, kéo thả, click,…</li>
+                <li class="text">Màn hình (Monitor): thiết bị đầu ra cho phép người dùng xem và hiển thị các thông tin,
+                    hình ảnh từ máy tính.</li>
+                <li class="text">Loa (Speaker): thiết bị đầu ra cho phép người dùng nghe âm thanh từ máy tính.</li>
+                <li class="text">Tai nghe (Headphone): thiết bị đầu ra cho phép người dùng nghe âm thanh từ máy tính
+                    nhưng không gây ảnh hưởng đến người khác.</li>
+                <li class="text">Máy in (Printer): thiết bị đầu ra cho phép người dùng in các tài liệu, hình ảnh từ máy
+                    tính ra giấy.</li>
+                <li class="text">Ổ đĩa CD/DVD: thiết bị đầu vào/đầu ra cho phép người dùng đọc và ghi dữ liệu từ/ra đĩa
+                    CD/DVD.</li>
+                <li class="text">USB (Universal Serial Bus): thiết bị đầu vào/đầu ra cho phép người dùng truyền dữ liệu
+                    giữa máy tính và các thiết bị khác như điện thoại, máy ảnh, máy quay phim,...</li>
+                <li class="text">Webcam: thiết bị đầu vào cho phép người dùng chụp hình, quay video và thực hiện các
+                    cuộc gọi video.</li>
+            </ul>
+
+            <!-- Thông tin công nghệ -->
+            <h2 class="tieude" id="ngoai_vi">Các thông tin về công nghệ đáng chú ý</h2>
+            <ul id="list_thongtin">
+                <li><a href="https://www.techradar.com/computing/gpu/next-gen-nvidia-rtx-5090-gpu-could-have-less-vram-than-previously-rumored-but-that-might-be-good-news-for-gamers"
+                        target="_blank" class="text">RTX 5090 của Nvidia sẽ có cấu hình bộ nhớ khác?</a></li>
+                <li><a href="https://gamek.vn/corsair-gioi-thieu-mot-loat-gear-khung-tuyet-dep-cung-nha-phan-phoi-moi-tai-thi-truong-viet-nam-20181117171152095.chn"
+                        target="_blank" class="text">Corsair giới thiệu một loạt gear khủng tuyệt đẹp cùng nhà phân phối
+                        mới tại thị trường Việt Nam</a></li>
+                <li><a href="https://mmosite.vn/colorful-tai-computex-vuon-len-tam-cao-moi-voi-ai/" target="_blank"
+                        class="text">COLORFUL TẠI COMPUTEX: VƯƠN LÊN TẦM CAO MỚI VỚI AI</a></li>
+            </ul>
+        </div>
+
+        <div class="block" id="quangcao">
+            <a href="https://gearvn.com/pages/pc-gvn" target="_blank"><img class="hinhQC" id="hinhQuangCao"
+                    src="image/hinhQuangCao.webp" alt="quangcao" title="Build PC tại GEARVN"></a>
+            <a href="https://gearvn.com/pages/pc-gvn" target="_blank"><img class="hinhQC" id="hinhQuangCao2"
+                    src="image/hinhQuangCao2.webp" alt="quangcao" title="Build PC tại GEARVN"><a>
+        </div>
+    </div>
+
+    <footer>
+        <p>Copyright&copy; 2024 My Website.</p>
+        <p>Thiết kế bởi: Nguyễn Huỳnh Chí, Lê Khánh Duy, Nguyễn Trọng Đạt</p>
+        <p>Liên hệ: <br>
+            <i class="fa-solid fa-envelope"></i> Nguyễn Huỳnh Chí: 110122001@st.tvu.edu.vn <br>
+            <i class="fa-solid fa-envelope"></i> Lê Khánh Duy: 110122002@st.tvu.edu.vn <br>
+            <i class="fa-solid fa-envelope"></i> Nguyễn Trọng Đạt: 110122217@st.tvu.edu.vn
+        </p>
+    </footer>
+</body>
+
+</html>

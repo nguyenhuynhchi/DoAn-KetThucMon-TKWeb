@@ -1,0 +1,325 @@
+
+body{
+    margin: 0px;
+    width: 100%;
+    font-family: "apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+#banner{
+    background-image: url(image/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 230px;
+    background-color: burlywood;
+}
+
+/* danh mục và đường dẫn đầu trang */
+#container-top{
+    top: 0;
+    display: flex;
+    background-color: #1E3A8A;
+    position: sticky;
+    height: auto;
+    z-index: 1000;
+}
+
+#danhmuc{
+    margin-left: 5%;
+    display: flex;
+}
+
+div#link_trangchu{
+    width: 150px;
+    display: flex;
+    text-align: center;
+    justify-content: center; 
+    align-items: center;
+    border: 2px solid #6f8de0;
+    border-radius: 10px;
+}
+
+div#link_trangchu a{
+    width: 100%;
+    text-decoration: none;
+    color: rgb(230, 255, 176);
+    padding: 10px 10px;
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+
+div#link_trangchu a:hover{
+    font-weight: bolder;
+    text-decoration: none;
+    background-color: #3e60be;
+    border-radius: 10px;
+}
+
+/* danh mục dropdown */
+div#danhmuc_dropDown{
+    width: 230px;
+    height: auto;
+    position: relative;
+    z-index: 100;
+    border: 2px solid #6f8de0;
+    border-radius: 10px;
+}
+
+div#danhmuc_dropDown ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+}
+
+div#danhmuc_dropDown ul li {
+    position: relative;
+    z-index: 150;
+    width: 230px;
+    font-weight: bold;
+}
+
+div#danhmuc_dropDown ul li a{
+    text-decoration: none;
+    color: rgb(230, 255, 176);
+    padding: 10px 10px;
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+
+div#danhmuc_dropDown ul li a:hover{
+    font-weight: bolder;
+    text-decoration: none;
+    background-color: #3e60be;
+    border-radius: 10px;
+}
+
+div#danhmuc_dropDown ul li ul li a{
+    color: #39FF14;
+}
+
+div#danhmuc_dropDown ul li ul li a:hover{
+    text-decoration: underline;
+    color: #91ff00;
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+div#danhmuc_dropDown ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    z-index: 200;
+    width:230px;
+    margin: 0;
+    padding: 0;
+    background-color: #6f8de0;
+}
+
+div#danhmuc_dropDown ul li ul li{
+    width:230px;
+    margin: 0;
+    padding: 0;
+}
+  
+div#danhmuc_dropDown ul li:hover ul{
+    display: block;
+}
+
+/* đường dẫn các trang cho biết đang ở trang nào */
+#duongdan{
+    position: absolute;
+    bottom: 0; 
+    margin-left: 50%;
+    color: rgb(230, 255, 176);
+    margin-bottom: 5px;
+}
+
+#duongdan a{
+    text-decoration: none;
+    color: rgb(230, 255, 176);
+}
+
+#duongdan a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+
+/* phần nội dung */
+#container-content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    padding-left: 5%;
+    box-sizing: border-box;
+    height: auto;
+    background-color: #1E3A8A;
+    z-index: 1;
+    justify-content: space-between;
+}
+
+#quangcao{
+    top: 80px;
+    right: 0;
+    width: 15%;
+    position: sticky;
+    height: 90vh;
+    overflow-y: auto;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.hinhQC{
+    max-width: 70%;
+    transition: transform 0.3s ease;
+}
+
+.hinhQC:hover{
+    transform: scale(0.9);
+}
+
+
+.thongso {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    max-height: 325px; 
+    overflow-y: auto;
+    display: block;
+    background-color: #1E3A8A;
+}
+
+.thongso tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.thongso, .thongso th, .thongso td {
+    border: 1px solid black;
+    padding: 1px;
+    text-align: left;
+}
+
+
+
+#noidung{
+    width: 85%;
+    height: auto;
+    background-color: #3e60be;
+}
+
+.hinhMinhHoa_ten{
+    display: flex;
+    width: 100%;
+    color: #fff;
+    justify-content: space-evenly;
+}
+
+.hinhMinhHoa{
+    width: 25%;
+}
+
+.ten{
+    width: 70%;
+}
+
+.hinh{
+    margin: 30px 0 0 0px;
+    max-width: 100%;
+    height: auto;
+}
+
+.ten_linhkien{
+    color: #FFFFFF;
+    margin: 30px 0px 10px 10px;
+    font-size: 27px;
+}
+
+.ten p{
+    margin: 10px 0px 10px 10px;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+#noidung h3{
+    text-align: center;
+    margin: 10px 0;
+    font-size: 23px;
+}
+
+.thuoc_tinh{
+    font-weight: 700;
+    width: 40%;
+    height: 40px;
+    font-size: 20px;
+    padding-left: 10px ;
+}
+
+.ten_chiso{
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 10px ;
+}
+
+.ten_chiso ul{
+    margin: 0;
+}
+
+hr.double-hr {
+    border: none; 
+    border-top: 5px double #1E3A8A; 
+    width: 100%; 
+    margin: 30px auto;
+}
+
+#danhdau{
+    color: rgb(255, 111, 0)!important;
+    font-weight: bolder !important;
+}
+
+footer{
+    text-align: center;
+    background-color: #364d8d;
+    padding: 20px 0px;
+}
+
+footer p{
+    color: #FFFFFF;
+    margin: 0;
+}
+
+#noidung h1{
+    text-align: center;
+    font-size: xx-large;
+}
+
+#menu_linhkien{
+    margin-left: 5%;
+    width: 150px;
+    height: 30px;
+    font-size: large;
+    color: #FFFFFF;
+    background-color: #6f8de0;
+}
+
+#comparison table{
+    margin-top: 10px;
+    width: 100%;
+    height: 300px;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #1E3A8A;
+    font-weight: 400;
+    font-size: large;
+}
+
+#comparison table th{
+    font-weight: 700;
+    color: rgb(230, 255, 176);
+}

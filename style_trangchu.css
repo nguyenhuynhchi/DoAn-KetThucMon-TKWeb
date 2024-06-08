@@ -1,0 +1,247 @@
+body{
+    margin: 0px;
+    font-family: "apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+#banner{
+    background-image: url(image/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 230px;
+    background-color: burlywood;
+}
+
+
+
+#container{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: #1E3A8A;
+    justify-content: space-evenly;
+}
+
+.block{
+    margin: 10px 0 0 0;
+}
+
+#danhmuc{
+    width: 20%;
+    /* margin: 0; */
+    background-color: #1E3A8A;
+    position: sticky;
+    top: 10%;
+    align-self: flex-start;
+    height: 95vh;
+    overflow-y: auto;
+}
+
+#noidung{
+    position: relative;
+    background-color: #3e60be;
+    width: 68%;
+    justify-content: center;
+    align-items: center;
+}
+
+#quangcao{
+    top: 10%;
+    right: 0;
+    width: 10%;
+    position: sticky;
+    height: 90vh;
+    overflow-y: auto;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.hinhQC{
+    max-width: 100%;
+    height: auto;
+}
+
+.tieude_danhmuc{
+    margin: 0;
+    padding: 0;
+}
+
+.tieude_danhmuc a{
+    text-decoration: none;
+    width: 100%;
+    color: rgb(230, 255, 176);
+}
+
+.menu{
+    list-style: none;
+    padding-left: 0;
+    border-top: 1px solid #ccc;
+    background-color: #3e60be;
+}
+
+.menu li{
+    list-style-type: none;
+    font-size: 16px;
+    width: 100%;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #39FF14;
+    display: block;
+    width: 95%;
+    padding: 10px 0px 10px 10px;
+    
+}
+
+
+/* đánh dấu đang ở vị trí đó */
+.menu li a.active {
+    color: rgb(255, 111, 0);
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+
+
+.menu li a:hover{
+    font-weight: bolder;
+    color: #91ff00;
+    font-size: 15px;
+}
+
+.menu li:hover{
+    background-color: #364d8d;
+}
+
+.link_linhKien_phoBien{
+    border: 2px solid #364d8d; 
+    border-radius: 10px; 
+    padding: 10px; 
+    width: fit-content;
+    margin-bottom: 20px;
+}
+
+.link_linhKien_phoBien a{
+    width: 100%;
+}
+
+.link_linhKien_phoBien:hover{
+    background-color: #597fe9;
+    border: 2px solid #02123c;
+}
+
+#tieude-chinh{
+    border: 0px;
+    margin: 10px 0 0 10px;
+}
+
+.tieude{
+    border-top: 1px solid #ccc;
+    color: rgb(230, 255, 176);
+    padding: 0px;
+    margin: 30px 0px 0px 10px;
+}
+
+.text{
+    text-align: justify;
+    color: #FFFFFF;
+    padding: 0px;
+    margin: 0px 10px 10px 10px;
+    font-size: 17px;
+}
+
+p a{
+    color: #FFFFFF;
+    font-style: italic;
+}
+
+p a:hover{
+    color: #efd1d1;
+    font-weight: bolder;
+}
+
+.hinhMinhHoa{
+    text-align: center;
+}
+
+.hinhMinhHoa p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    font-style: italic;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.hinh{
+    max-width: 70%;
+    height: auto;
+}
+
+#hinhMinhHoa_cardmang{
+    width: 40%;
+    height: auto;
+}
+
+#hinhMinhHoa_case{
+    width: 40%;
+    height: auto;
+}
+
+#hinhMoTa_tanNhiet{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+}
+
+#hinhMoTa_tanNhiet p{
+    margin: 0px;
+    font-size: 17px;
+    color: #FFFFFF;
+}
+
+.hinhMoTa{
+    width: 30%;
+    height: auto;
+    text-align: justify;
+}
+
+.hinhMinhHoa_3_tanNhiet{
+    width: 100%;
+    height: auto;
+}
+
+#list_thongtin{
+    list-style-type: disc;
+    color: #FFFFFF;
+}
+
+#list_thongtin a{
+    color: #FFFFFF(128, 128, 143);
+}
+
+#list_thongtin a:hover{
+    color: #efd1d1;
+}
+
+footer{
+    text-align: center;
+    background-color: #364d8d;
+    padding: 20px 0px;
+}
+
+footer p{
+    color: #FFFFFF;
+    margin: 0;
+}
+
+
+
+
+
